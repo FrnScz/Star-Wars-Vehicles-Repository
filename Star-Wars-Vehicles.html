@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Vehicles</title>
+    <link rel="stylesheet" href="./Star-Wars-Vehicles.css">
+    <link rel="shortcut icon" href="./assets/Star_Wars_logo.webp" type="image/x-icon"> <!--Serve para por um icone na janela do navegador--> 
+</head>
+<body>
+    
+    <header>
+        
+        <a href="./Star-Wars-Vehicles.html">
+            <div class="logo">
+                <img src="./assets/Star_Wars_logo.webp" alt="logo" class="logo-img"/>
+                <span class="logo-text">VEHICLES</span>
+            </div>
+        </a>
+        
+        <a href="https://github.com/FrnScz" target="_blank">
+        <div class="social-media">
+                <i class="fa-brands fa-github"></i>
+                
+            </div>
+        </a>
+    </header>
+
+    <div class="main-container">
+        <h2>Conheça Todos os veículos de Star Wars em um só lugar</h2>
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+        <div class="modal-content" id="modal-content"></div>
+        </div>
+        
+        <div class="buttons">
+            <button id="back-button" disabled>Anterior</button>
+            <button id="next-button" disabled>Próximo</button>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <p class="footer-logo">STAR WARS VEHICLES</p>
+        <p class="copyright">Desenvolvido por &copy; Fernando Scorza</p>
+    </footer>
+
+    <script src="./Star-Wars-Vehicles.js"></script>
+    <script src="https://kit.fontawesome.com/7a3e323002.js" crossorigin="anonymous"></script>
+</body>
+</html>
